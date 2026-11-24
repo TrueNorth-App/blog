@@ -1,31 +1,12 @@
----
-layout: default
----
-{% for post in site.posts %}
-  <article class="card">
-    <div class="post-meta">{{ post.date | date: "%d.%m.%Y" }}</div>
-    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-    {% if post.image %}
-      <a href="{{ post.url | relative_url }}">
-        <img class="post-cover" src="{{ post.image | relative_url }}" alt="{{ post.title }}" />
-      </a>
-    {% endif %}
-    <p>{{ post.excerpt | strip_html | truncatewords: 45 }}</p>
-    <p><a class="btn btn-secondary" href="{{ post.url | relative_url }}">Weiterlesen →</a></p>
-  </article>
-{% endfor %}
-
-<section class="support-card" id="kontakt">
-  <h2>Rückmeldungen &amp; freiwillige Unterstützung</h2>
-  <p>
-    <em>True North</em> ist ein unabhängiges, kostenloses Herzensprojekt[span_0](start_span)[span_0](end_span). Über Gedanken, Fragen oder Rückmeldungen zur App freue ich mich jederzeit[span_1](start_span)[span_1](end_span). Wenn dir die App guttut und du helfen möchtest, die laufenden Kosten für Entwickler-Lizenzen und Hosting zu decken, kannst du das Projekt hier freiwillig unterstützen[span_2](start_span)[span_2](end_span):
-  </p>
-  <div class="button-row">
-    <a class="btn btn-primary" href="mailto:kontakt@deine-truenorth-domain.at?subject=Feedback%20zu%20True%20North">
-      Feedback per E-Mail senden
-    </a>
-    <a class="btn btn-secondary" href="https://ko-fi.com/dein-link" target="_blank" rel="noopener noreferrer">
-      Projekt freiwillig unterstützen
-    </a>
-  </div>
-</section>
+<!DOCTYPE html><html lang="en-gb"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>True North</title><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="canonical" href="https://truenorth-app.github.io/blog/"><link rel="alternate" type="application/atom+xml" href="https://truenorth-app.github.io/blog/feed.xml" title="True North - RSS"><link rel="alternate" type="application/json" href="https://truenorth-app.github.io/blog/feed.json" title="True North - JSON"><meta property="og:title" content="True North"><meta property="og:site_name" content="True North"><meta property="og:description" content=""><meta property="og:url" content="https://truenorth-app.github.io/blog/"><meta property="og:type" content="website"><link rel="stylesheet" href="https://truenorth-app.github.io/blog/assets/css/style.css?v&#x3D;9b02a974ddb182516a41734026b76985"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Organization","name":"True North","url":"https://truenorth-app.github.io/blog/"}</script><noscript><style>img[loading] {
+                    opacity: 1;
+                }</style></noscript></head><body class="home-template"><header class="top js-header"><a class="logo" href="https://truenorth-app.github.io/blog/">True North</a></header><main><div class="hero hero--noimage"><header class="hero__content"><div class="wrapper"><h1>Discover My Blogging Journey: Adventures, Travels, and Hobbies!</h1><p>Join me as I share captivating stories, travel experiences, and dive into the joys of my favorite hobbies.</p><p><a href="#" class="btn">Read more</a></p></div></header></div><div class="wrapper feed"></div></main><footer class="footer"><div class="wrapper"><div class="footer__copyright">Powered by Publii</div><button id="backToTop" class="footer__bttop" aria-label="Back to top" title="Back to top"><svg width="20" height="20"><use xlink:href="https://truenorth-app.github.io/blog/assets/svg/svg-map.svg#toparrow"/></svg></button></div></footer><script defer="defer" src="https://truenorth-app.github.io/blog/assets/js/scripts.min.js?v&#x3D;548663b90e1600fd2c2dd54433d04b71"></script><script>window.publiiThemeMenuConfig={mobileMenuMode:'sidebar',animationSpeed:300,submenuWidth: 'auto',doubleClickTime:500,mobileMenuExpandableSubmenus:true,relatedContainerForOverlayMenuSelector:'.top'};</script><script>var images = document.querySelectorAll('img[loading]');
+        for (var i = 0; i < images.length; i++) {
+            if (images[i].complete) {
+                images[i].classList.add('is-loaded');
+            } else {
+                images[i].addEventListener('load', function () {
+                    this.classList.add('is-loaded');
+                }, false);
+            }
+        }</script></body></html>

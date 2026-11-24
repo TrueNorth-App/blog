@@ -1,7 +1,0 @@
-title: True North
-description: Ein stiller Raum für die tägliche geistige Ausrichtung im Rhythmus der 19 Tage.
-baseurl: "/TrueNorth"
-url: ""
-
-markdown: kramdown
-permalink: /beitrag/:title/
